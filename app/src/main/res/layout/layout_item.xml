@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dimen_16dp">
+
+    <ImageView
+        android:id="@+id/iv_picture"
+        android:layout_width="@dimen/dimen_150dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_16dp"
+        android:textColor="@color/colorBlack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintLeft_toRightOf="@+id/iv_picture"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/iv_picture"
+        app:layout_constraintTop_toTopOf="parent"
+        tool:text="label" />
+
+    <TextView
+        android:id="@+id/tv_desc"
+        android:layout_width="@dimen/dimen_150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_16dp"
+        android:layout_marginEnd="@dimen/dimen_8dp"
+        android:layout_marginRight="@dimen/dimen_8dp"
+        android:textColor="@color/colorBlack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintLeft_toLeftOf="@+id/tv_label"
+        app:layout_constraintRight_toRightOf="@+id/tv_label"
+        app:layout_constraintStart_toStartOf="@+id/tv_label"
+        app:layout_constraintTop_toBottomOf="@+id/tv_label"
+        tool:text="description" />
+
+    <TextView
+        android:id="@+id/tv_value"
+        android:layout_width="@dimen/dimen_150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_16dp"
+        android:layout_marginEnd="@dimen/dimen_8dp"
+        android:layout_marginRight="@dimen/dimen_8dp"
+        android:layout_marginBottom="@dimen/dimen_16dp"
+        android:gravity="end"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintLeft_toLeftOf="@+id/tv_label"
+        app:layout_constraintRight_toRightOf="@+id/tv_label"
+        app:layout_constraintStart_toStartOf="@+id/tv_label"
+        app:layout_constraintTop_toBottomOf="@+id/tv_desc"
+        tool:text="1234567" />
+
+</android.support.constraint.ConstraintLayout>
