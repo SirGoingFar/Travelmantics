@@ -155,6 +155,7 @@ public class CatalogActivity extends AppCompatActivity {
                 .signOut(this)
                 .addOnCompleteListener(new OnCompleteListener<Void>() {
                     public void onComplete(@NonNull Task<Void> task) {
+                        adapter.swapData(new ArrayList<Item>());
                         SignIn();
                     }
                 });
