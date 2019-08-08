@@ -24,4 +24,16 @@
     <string name="text_select_image">Select image</string>
     <string name="image">image</string>
     <string name="keyword_hide">HIDE</string>
+    <string name="signing_in">Signing in</string>
+    <string name="error_field_required">Field is required</string>
+    <string name="error_invalid_email">Invalid email</string>
+    <string name="login_error_message">Unable to sign in, please retry.</string>
+    <string name="error_invalid_password">Invalid password</string>
+    <string name="email_already_registered">Email address already exist, please try another one</string>
+    <string name="signing_up">Signing up</string>
+    <string name="pls_retry">Registration failed, please retry</string>
+    <string name="empty_state_text">Oops! Your catalog is empty. Click on the floating button to insert a new item entry to the catalog.</string>
+    <string name="text_save">Save</string>
+    <string name="text_pick_another_image">Pick another image</string>
+    <string name="text_sign_out">Sign out</string>
 </resources>
